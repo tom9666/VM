@@ -18,5 +18,5 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
-echo 'src-git maxminddb https://github.com/jerrykuku/lua-maxminddb' >>feeds.conf.default
-echo 'src-git vssr https://github.com/jerrykuku/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/
