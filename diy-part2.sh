@@ -12,5 +12,7 @@
 cd package/lean/
 git clone https://github.com/jerrykuku/lua-maxminddb.git 
 git clone https://github.com/jerrykuku/luci-app-vssr.git
+cd ..
+cd ..
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.3.10/g' package/base-files/files/bin/config_generate
