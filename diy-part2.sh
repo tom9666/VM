@@ -9,7 +9,8 @@
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/  
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/  
+cd package/lean/
+git clone https://github.com/jerrykuku/lua-maxminddb.git 
+git clone https://github.com/jerrykuku/luci-app-vssr.git
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.3.10/g' package/base-files/files/bin/config_generate
